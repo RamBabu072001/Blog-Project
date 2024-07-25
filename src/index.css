@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+/*-----------------------------------Home------------------------------*/
+.Home-Box{
+    height: 100vh;
+    /* background-color: rgba(203, 197, 197, 0.628); */
+    background-image: url("assets/images/5.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    color:white;
+    border-bottom: 1px solid white;
+
+}
+
+.Home-Box-1{
+    background-color: black;
+    opacity: 0.7;
+    height: 100vh;
+    width: 100%;
+
+}
+.Home-text{
+    position:absolute; 
+    right:35%;
+    top:40%;
+    text-align: center;
+    
+    
+}
+
+.Home-text h1{
+    z-index: 10;
+    font-size: 50px;
+}
+
+.Home-content{
+    /* background-color: #11111f; */
+}
+.Home-content h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+    
+}
+
+.Home-content-1 , .Home-content-2{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    gap: 49px;
+   
+    border-bottom: 1px solid white;
+}
+
+.Home-content-1-image img, .Home-content-2-image img{
+    width: 400px;
+}
+
+.Home-content-1-text , .Home-content-2-text {
+    color:white;
+}
+
+.Featured{
+    gap:110px;
+    padding: 170px;
+    color:white;
+    
+    border-bottom: 1px solid white;
+}
+
+.Featured-icons{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    
+}
+
+/*---------------------------------Footer---------------------------------*/
+.footer{
+    height: 300px;
+    padding-top: 40px;
+    border-top: 1px solid white;
+}
+.footer-box{
+    
+    padding: 40px;
+}
+
+.footer-logo img{
+
+}
+
+.footer-social span{
+    margin: 40px 8px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-box li:hover ,a:hover , span:hover{
+   color: cadetblue;
+   cursor: pointer;
+}
+
+
+/* .footer-links ul{
+    list-style-type: none;
+    
+}
+
+.footer-ul-1 ul{
+    margin-right: 15px;
+}
+.footer-ul-2 ul{
+    border-left:1px solid white;
+}
+
+.footer-ul-1 , .footer-ul-2 {
+    height: 100px;
+    
+} */
+
+/*-----------------------------------------Blog---------------------------------*/
+
+.Blog-header {
+    
+    height: 130px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+   
+}
+
+.Blog-header ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap:2rem;
+    margin: 0;
+}
+
+.Blog-header ul li{
+    /* border: 1px solid rgb(202, 198, 198); */
+    padding: 0.4rem;
+    
+    width: 8rem;
+    text-align: center;
+    box-shadow:0 4px 8px 0  rgba(127, 120, 120, 0.256);
+    font-weight: 400;
+    font-size: large;
+}
+
+.Blog-header ul li:hover{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+.Blog-header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.Blog-body{
+    padding: 4rem 7rem;
+}
+
+
+.card{
+    width: 26rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card img{
+    height:20rem;
+}
+
+
+/*------------------------------------About------------------------------------------------*/
+
+.About{
+    
+    padding: 20px;
+    color: white;
+}
+
+.About-header{
+    margin: 50px;
+    text-decoration: underline;
+    text-align: center;
+   
+}
+
+.About-text{
+    margin: 70px 160px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 2px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/*--------------------------------------Posts-------------------------------*/
+.post-detail-container{
+    background-color: beige;
+    padding: 5rem 17rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+
+.post-detail-image img{
+    height: 33rem;
+    width: 100%;
+}
+
+
+/*-----------------------------register---------------------------------------*/
+
+.register{
+    
+    height: 90vh;
+    padding: 50px 500px;
+}
+
+.register_container
+{
+    height: 70vh;
+    background-color: rgb(236, 239, 239);
+    padding: 20px;
+    border-radius: 4px;
+
+    
+}
+
+.register_form
+{
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+    
+    margin: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.register_form input{
+    
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.317);
+}
+
+.register_form button{
+    padding: 10px 30px;
+    color: white;
+    width: 500px;
+    
+    background-color: rgba(127, 120, 120, 0.256);
+}
+
+.register_form button:hover{
+    background-color: rgba(0, 0, 0, 0.105);
+}
+
+/*-----------------------------------------Contact--------------------------------*/
+
+.Contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    padding-bottom: 100px;
+    /* margin: 50px; */
+}
+
+.Contact-content input{
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.Contact-content textarea{
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+}
+.Contact-content button{
+    padding: 10px 30px;
+    color: white;
+    width: 500px;
+    
+    background-color: rgba(127, 120, 120, 0.256);
+}
+
+.Contact-content button:hover{
+    padding: 10px 30px;
+    color: white;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.498);
+
+}
+
+.Contact-text{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*------------------------------------errorpage----------------------------------*/
+
+.errorpage{
+    height: 100vh;
+}
+
+
