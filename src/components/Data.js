@@ -12,7 +12,7 @@ import Thumbnail7 from '../assets/images/blog6.jpg'
 export const DUMMY_POSTS =[
     {
         id: "1",
-        title:"absfdjdk",
+        title:"travel",
         desc:"In a small village nestled between rolling hills and a serene river, there lived a community of people whose lives were intricately woven with the natural landscape around them. This village, called Eldoria, was a place where time seemed to slow down, allowing its inhabitants to savor each moment and live in harmony with the world. The villagers were known for their craftsmanship, producing exquisite pottery, woven fabrics, and intricate woodwork that were highly sought after in nearby towns. Every morning, as the first rays of sunlight kissed the earth, the village would come to life. The air would be filled with the sounds of birds chirping, roosters crowing, and the gentle hum of human activity.The heart of Eldoria was its market square, a bustling hub where traders, artisans, and farmers would gather to sell their goods. The market was a riot of colors and scents, with stalls laden with fresh produce, handmade crafts, and exotic spices. The villagers greeted each other with warm smiles and friendly banter, creating a sense of community that was palpable. Children would weave through the crowd, their laughter echoing through the square as they played games and helped their parents with the day's chores.",
         authorID: "2",
         Category: "Weather",
@@ -21,7 +21,7 @@ export const DUMMY_POSTS =[
     },
     {
         id: "2",
-        title:"fndssvdn",
+        title:"travel",
         desc:"gsdfskghskdfjshgmbcdffukgabfharekughfndsakfafgrleigiueghbfjhgfilshugligblhfagfkadgfrkghreituhwbjhggdfgjh In a small village nestled between rolling hills and a serene river, there lived a community of people whose lives were intricately woven with the natural landscape around them. This village, called Eldoria, was a place where time seemed to slow down, allowing its inhabitants to savor each moment and live in harmony with the world. The villagers were known for their craftsmanship, producing exquisite pottery, woven fabrics, and intricate woodwork that were highly sought after in nearby towns. Every morning, as the first rays of sunlight kissed the earth, the village would come to life. The air would be filled with the sounds of birds chirping, roosters crowing, and the gentle hum of human activity.The heart of Eldoria was its market square, a bustling hub where traders, artisans, and farmers would gather to sell their goods. The market was a riot of colors and scents, with stalls laden with fresh produce, handmade crafts, and exotic spices. The villagers greeted each other with warm smiles and friendly banter, creating a sense of community that was palpable. Children would weave through the crowd, their laughter echoing through the square as they played games and helped their parents with the day's chores.",
         authorID: "1",
         Category: "Nature",

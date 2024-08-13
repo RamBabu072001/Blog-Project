@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineAlipayCircle } from "react-icons/ai";
 
 function Header() {
+  const [SearchValue , setSearch] = useState("")
+  
+
   return (
     
         <div className=''>
@@ -29,9 +32,9 @@ function Header() {
 </li>
       
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
+      <form action= {`/Search?`} className="d-flex">
+        <input className="form-control me-2" name="Searchv" type="search" value={SearchValue} placeholder="Search" aria-label="Search" onChange={(e)=>{setSearch(e.target.value)}}/>
+        <button className="btn btn-outline-success" type="submit" >Search</button>
       </form>
       <Link to="/Register"><button className='btn btn-success mx-2'>SignUp</button></Link>
     </div>

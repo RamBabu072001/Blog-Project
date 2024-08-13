@@ -25,9 +25,10 @@
 }
 .Home-text{
     position:absolute; 
-    right:35%;
-    top:40%;
+    left:50%;
+    top:60%;
     text-align: center;
+    transform: translate(-50%,-50%);
     
     
 }
@@ -51,15 +52,15 @@
 .Home-content-1 , .Home-content-2{
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 5rem;
     align-items: center;
-    gap: 49px;
+    gap: 1.5rem;
    
     border-bottom: 1px solid white;
 }
 
 .Home-content-1-image img, .Home-content-2-image img{
-    width: 400px;
+    width: 16rem;
 }
 
 .Home-content-1-text , .Home-content-2-text {
@@ -191,6 +192,10 @@
     height:20rem;
 }
 
+.Search-body{
+    padding: 4rem 7rem;
+}
+
 
 /*------------------------------------About------------------------------------------------*/
 
@@ -219,7 +224,7 @@
 /*--------------------------------------Posts-------------------------------*/
 .post-detail-container{
     background-color: beige;
-    padding: 5rem 17rem;
+    padding: 5rem 10rem;
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
     
@@ -236,16 +241,16 @@
 
 .register{
     
-    height: 90vh;
-    padding: 50px 500px;
+    height: 100vh;
+    position: relative;
 }
 
-.register_container
+.register-container
 {
-    height: 70vh;
-    background-color: rgb(236, 239, 239);
-    padding: 20px;
-    border-radius: 4px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
 
     
 }
@@ -341,3 +346,46 @@
 }
 
 
+
+
+@media  screen and (max-width:600px) {
+    .Featured{
+        gap:1rem;
+    }
+
+    .footer-box{
+        padding: 0;
+    }
+
+    .Home-content-1 , .Home-content-2{
+        display: grid;
+    }
+
+    .Blog-header{
+        display: none;
+    }
+    .Blog-body{
+        padding: 7rem 2rem;
+    }
+
+  
+    .About-text{
+        margin: 3rem 0.5rem;
+        }
+
+    .Contact-content input , .Contact-content textarea ,.Contact-content button , .register_form input ,.register_form button{
+        width: 16rem;
+    }
+
+    .post-detail-container{
+        padding: 2rem 1.5rem;
+    }
+
+    .post-detail-image img{
+        height: 25rem;
+    }
+
+    .Search-body{
+        display: block;
+    }
+}

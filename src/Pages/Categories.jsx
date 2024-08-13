@@ -12,15 +12,15 @@ function Categories() {
     useEffect(() => {
         let items = localStorage.getItem('posts')
         if (items) {
-            console.log(items)
+            
             let todo = JSON.parse(localStorage.getItem('posts'))
             setItems(todo);
         }
     }, []);
-
-
+    console.log(items)
+    console.log(items.length)
     return (
-        <div className='bg-dark p-4'>
+        <div className='Search-body bg-dark p-4'>
             <div > <h3 className='text-white'>Category: {Category} </h3></div>
             <div className='d-flex flex-warp justify-contents-evenly gap-4'>
             {
@@ -29,9 +29,9 @@ function Categories() {
                         return (
                         
                                 
-                                    <div className="card my-4 ">
+                                    <div key={item.id} className="card my-4 ">
                                         <Link to={`/posts/${item.postId}`}>
-                                            <img src={item.Thumbnail} class="card-img-top" alt="..." />
+                                            <img src={item.Thumbnail} className="card-img-top" alt="..." />
                                             <div className="card-body">
                                                 <h5 className="card-title">{item.title}</h5>
                                                 <p className="card-text">{item.desc.length > 100 ? item.desc.substr(0, 100) + '...' : item.desc}</p>

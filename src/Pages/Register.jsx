@@ -19,7 +19,7 @@ function Register() {
 
   return (
     <div className='register bg-dark'>
-        
+        <div className='register-container' >
             <form className='register_form'>
             <h1 className='text-center'>Register</h1>
             <input type="text" placeholder="Full Name" name="name"  value={userData.name} onChange={Userdatahandle}></input>
@@ -29,7 +29,7 @@ function Register() {
             <button>Register</button>
             <p>Already have an account ? <Link to='/Login'>Sign in</Link></p>
             </form>
-         
+         </div>
     </div>
   )
 }

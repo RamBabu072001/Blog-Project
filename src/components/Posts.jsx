@@ -26,8 +26,7 @@ function Posts() {
                         Category={Category} />
                         
                         
-                       
-
+            
                         )
 }
             

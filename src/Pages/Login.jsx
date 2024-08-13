@@ -19,7 +19,7 @@ function Login() {
 
   return (
     <div className='register bg-dark'>
-        
+        <div className='register-container'>
         <form className='register_form'>
         <h1 className='text-center'>Login</h1>
         <input type="text" placeholder="Full Name" name="name"  value={userData.name} onChange={Userdatahandle}></input>
@@ -28,7 +28,7 @@ function Login() {
         <button>Login</button>
         <p>If you don't have an account ? <Link to='/Register'>Sign Up</Link></p>
         </form>
-     
+     </div>
 </div>
   )
 }

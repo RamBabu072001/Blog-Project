@@ -11,7 +11,7 @@ import "./index.css"
 import PostDetail from './Pages/PostDetail.jsx'
 import Login from './Pages/Login.jsx'
 import Register from './Pages/Register.jsx'
-
+import Search from './Pages/Search.jsx'
 import Categories from './Pages/Categories.jsx'
 
 
@@ -53,7 +53,12 @@ const router = createBrowserRouter(
         {
           path:'/posts/categories/:Category',
           element:<Categories/>
+        },
+        {
+          path:'/Search?',
+          element:<Search/>
         }
+
         
       ]
     }
